@@ -1,0 +1,132 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body and set a background color or image */
+body {
+    background-color: #f3f3f3; /* You can change this to your preferred background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: seagreen;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 30px;
+}
+
+#about p{
+    font-size: 22px;
+}
+
+#about img {
+    border-radius: 50%; /* Rounded image */
+    width: 150px;
+    height: 150px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#skills h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    font-size: 23px;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+}
+
+#projects h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+
+.project_skills {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project_skills h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    padding: 1%;
+}
+
+.project_skills p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project_skills img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    padding: 20px;
+}
+
+#resume h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    padding: 1%;
+}
+
+#resume a {
+    font-size: 26px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
