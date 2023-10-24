@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input#display {
+    width: 92%;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+}
